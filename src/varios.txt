@@ -1,0 +1,13 @@
+https://www.eventbrite.com/myaccount/apps/
+
+API key
+JJJLUV3GUSJMEKE6ZW
+
+Client secret
+CPCA6NDAXCSCDPM4QAMCE2HENFSSBUA6P6ZUMNGBRV4FKD7WFG
+
+Private token
+R4C5AHISZ76JCVLTZG3O
+
+Public token
+R2WSOP7CHEWDYUP5FSQH
