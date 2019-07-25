@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { async } from "q";
 
 // Crear el context
 const CategoriasContext = React.createContext();

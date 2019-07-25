@@ -1,20 +1,26 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 // Importamos los componenetes para la app
 import Header from "./Components/Header";
 import Formulario from "./Components/Formulario";
+import ListaEventos from './Components/ListaEventos';
 
+// Servicios
 import CategoriasProvider from "./Context/CategoriasContext";
+import EventosProvider from "./Context/EventosContext";
 
 function App() {
     return (
-        <CategoriasProvider>
-            <Header />
+        <EventosProvider>
+            <CategoriasProvider>
+                <Header />
+                <div className="uk-container">
+                    <Formulario />
+                    <ListaEventos />
 
-            <div className="uk-container">
-                <Formulario />
-            </div>
-        </CategoriasProvider>
+                </div>
+            </CategoriasProvider>
+        </EventosProvider>
     );
 }
 
